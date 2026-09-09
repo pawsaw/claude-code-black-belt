@@ -1,9 +1,12 @@
 <script setup lang="ts">
 // G14 — THE centrepiece graphic. requireUser() guards the page; a direct
-// POST to the action's generated ID bypasses it entirely. Ground truth:
-// app/(app)/layout.tsx calls requireUser() for every page under it, but
-// app/actions/*.ts Server Actions (e.g. deleteClash, deleteVenue) are their
-// own public POST endpoints, reachable without ever loading a guarded page.
+// POST to the action's generated ID bypasses the PAGE's guard, not
+// authentication itself. Ground truth: app/(app)/layout.tsx calls
+// requireUser() for every page under it, but app/actions/*.ts Server
+// Actions (e.g. deleteClash, deleteVenue) are their own public POST
+// endpoints, reachable without ever loading a guarded page — each action
+// calls requireUser() again on its own, so the bypass is still
+// authenticated. What it does NOT re-establish is ownership.
 </script>
 
 <template>
@@ -52,8 +55,8 @@
 
         <path d="M 870,110 C 870,150 750,160 640,178" fill="none" stroke="var(--na-error-500)" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#a14-danger)" />
         <rect x="620" y="120" width="270" height="45" rx="6" fill="var(--na-bg)" stroke="var(--na-error-500)" stroke-width="2" />
-        <text x="755" y="140" text-anchor="middle" fill="var(--na-error-500)" font-weight="700" style="font-size:12px">requireUser() never runs</text>
-        <text x="755" y="156" text-anchor="middle" fill="var(--na-fg-muted)" style="font-size:10px">this request never loaded a page</text>
+        <text x="755" y="140" text-anchor="middle" fill="var(--na-error-500)" font-weight="700" style="font-size:12px">the PAGE's requireUser() never runs</text>
+        <text x="755" y="156" text-anchor="middle" fill="var(--na-fg-muted)" style="font-size:10px">the action re-checks auth itself — but checks WHAT?</text>
       </g>
 
       <!-- convergence + closing label, stage 3 -->
