@@ -1,0 +1,66 @@
+/**
+ * nextacademy.io brand tokens, extracted live from https://www.nextacademy.io
+ * (see slides/BRAND.md for provenance). The site itself is light-only; this
+ * deck is a deliberate dark rendering of the same palette for projection,
+ * using the site's own dark surface (the zinc-900 footer) as the anchor.
+ */
+:root {
+  /* Primary — deep navy, the site's #1 brand colour (--color-primary-600) */
+  --na-primary-50: #f0f4f9;
+  --na-primary-100: #dde6f3;
+  --na-primary-200: #b8cee8;
+  --na-primary-300: #8aafdb;
+  --na-primary-400: #5b8acc;
+  --na-primary-500: #2f5f9f;
+  --na-primary-600: #1e4478;
+  --na-primary-700: #14335a;
+  --na-primary-800: #0d2340;
+  --na-primary-900: #081829;
+
+  /* Secondary — muted rose */
+  --na-secondary-500: #c85973;
+  --na-secondary-600: #a63d56;
+  --na-secondary-700: #872d45;
+
+  /* Accent — warm gold */
+  --na-accent-400: #dbb77d;
+  --na-accent-500: #c99850;
+  --na-accent-600: #b67d35;
+
+  /* Semantic */
+  --na-success-500: #16a34a;
+  --na-error-500: #dc2626;
+
+  /* Zinc neutrals (the scale actually used on the live site) */
+  --na-zinc-50: #fafafa;
+  --na-zinc-100: #f4f4f5;
+  --na-zinc-200: #e4e4e7;
+  --na-zinc-300: #d4d4d8;
+  --na-zinc-400: #9f9fa9;
+  --na-zinc-500: #71717b;
+  --na-zinc-600: #52525c;
+  --na-zinc-700: #3f3f46;
+  --na-zinc-800: #27272a;
+  --na-zinc-900: #18181b;
+  --na-zinc-950: #09090b;
+
+  /* Motion (from the site's own :root tokens) */
+  --na-duration-fast: 0.15s;
+  --na-duration-normal: 0.25s;
+  --na-duration-slow: 0.35s;
+  --na-ease-out: cubic-bezier(0, 0, 0.2, 1);
+
+  /* Radius / shadow (site conventions) */
+  --na-radius-lg: 0.5rem;
+  --na-radius-xl: 0.75rem;
+  --na-shadow-accent: 0 10px 15px -3px rgb(201 152 80 / 0.25);
+
+  /* --- Dark-deck semantic layer (this deck's own decision, not on the site) --- */
+  --na-bg: var(--na-zinc-950);
+  --na-bg-raised: var(--na-zinc-900);
+  --na-fg: var(--na-zinc-50);
+  --na-fg-muted: var(--na-zinc-400);
+  --na-border: var(--na-zinc-800);
+  --na-accent-current: var(--na-primary-400);
+  --na-gradient: linear-gradient(90deg, var(--na-primary-500), var(--na-secondary-500));
+}

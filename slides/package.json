@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-black-belt-slides",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/generate-qr.mjs",
+    "dev": "slidev --open",
+    "prebuild": "node scripts/generate-qr.mjs",
+    "build": "slidev build",
+    "postbuild": "mkdir -p dist && slidev export --output dist/black-belt.pdf",
+    "export": "node scripts/generate-qr.mjs && slidev export --output dist/black-belt.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.1",
+    "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.63.0",
+    "qrcode": "^1.5.4",
+    "@types/qrcode": "^1.5.6"
+  }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.14 203.14">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: square;
+        stroke-linejoin: bevel;
+        stroke-width: 8px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #378292;
+      }
+
+      .cls-3 {
+        font-size: 93.57px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: SourceSansPro-Regular, 'Source Sans Pro';
+      }
+
+      .cls-4 {
+        fill: #f6a672;
+        font-size: 112.07px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g>
+      <g>
+        <text class="cls-3" transform="translate(34.53 116.1) scale(1.05 1)"><tspan x="0" y="0">N</tspan></text>
+        <text class="cls-4" transform="translate(103.61 118.78) scale(1.05 1)"><tspan x="0" y="0">a</tspan></text>
+      </g>
+      <g>
+        <path class="cls-1" d="M151.87,142.94c-37.66,6.21-54.24,19.62-54.24,19.62"/>
+        <path class="cls-1" d="M43.39,142.94c37.66,6.21,54.24,19.62,54.24,19.62"/>
+      </g>
+      <rect class="cls-2" x="4.5" y="4.5" width="194.14" height="194.14"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#18181b"/>
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="#c99850" stroke-width="8"/>
+  <text x="600" y="290" font-family="sans-serif" font-size="40" fill="#fafafa" text-anchor="middle">PLACEHOLDER — nextacademy.io has no retrievable OG image</text>
+  <text x="600" y="345" font-family="sans-serif" font-size="24" fill="#a1a1aa" text-anchor="middle">/opengraph-image on the live site returns 404. See slides/BRAND.md.</text>
+</svg>

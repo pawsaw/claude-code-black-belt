@@ -1,0 +1,12 @@
+# Local reference clone of the CLASH codebase (not part of this repo)
+.clash-ref/
+
+# Node
+node_modules/
+.DS_Store
+
+# Slidev build output
+slides/dist/
+slides/.slidev/
+
+input

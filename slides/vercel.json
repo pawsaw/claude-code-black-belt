@@ -1,0 +1,4 @@
+{
+  "buildCommand": "node scripts/generate-qr.mjs && npx slidev build",
+  "outputDirectory": "dist"
+}
