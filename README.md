@@ -14,6 +14,7 @@
 
 > **Delivered today, 2026-09-09, 15:00–19:00 CEST**, remote via Zoom, React Day Berlin 2026.
 > [Workshop listing on GitNation](https://gitnation.com/contents/claude-code-black-belt-3)
+> **Slides:** [claude-code-black-belt-sunset-picnic.vercel.app](https://claude-code-black-belt-sunset-picnic.vercel.app)
 
 ## Abstract
 
@@ -155,7 +156,7 @@ Standalone index, navigable on its own: [`tasks/README.md`](tasks/README.md).
 - [Next.js](https://nextjs.org/docs) · [Prisma](https://www.prisma.io/docs) · [shadcn/ui](https://ui.shadcn.com) · [Leaflet](https://leafletjs.com) · [Zod](https://zod.dev)
 
 **Presentation**
-- [Slidev](https://sli.dev)
+- [Live slides](https://claude-code-black-belt-sunset-picnic.vercel.app) · [Slidev](https://sli.dev)
 
 Every URL above was verified live during this repo's build, including several corrections to
 the originally planned links (wrong doc paths, a redirected blog post, a renamed GitHub org).
